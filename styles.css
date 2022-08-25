@@ -1,0 +1,95 @@
+body{
+  background-color: hsl(30, 38%, 92%);
+  margin: 0;
+}
+table{
+  background-color: White;
+  border-radius: 7px;
+  width: 50%;
+  margin: 80px auto;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+td{
+  width: 50%;
+  padding: 0;
+}
+h1{
+  font-family: 'Fraunces', serif;
+  color: hsl(212, 21%, 14%);
+  line-height: 1;
+  font-size: 2.2rem;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+
+.perfume-img{
+  width: 100%;
+  display: block;
+  border-radius:10px 0 0 10px;
+}
+.detail-section{
+  padding:7% 10%;
+}
+
+
+.amount{
+  color: hsl(158, 36%, 37%);
+  display: inline-block;
+  width: 150px;
+}
+.cross-cut{
+  text-decoration: line-through;
+  display: inline-block;
+  vertical-align:super;
+}
+
+
+button{
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  font-family: "Montserrat";
+  text-align: center;
+  border:0;
+  border-radius: 7px;
+  padding: 4% ;
+  width: 100%;
+}
+button:hover{
+  background-color:#1A4D2E;
+}
+.cart-icon{
+  padding: 1% 2% 0;
+  vertical-align: sub;
+}
+
+footer{
+  background-color: white;
+  text-align: center;
+  padding: 1%;
+}
+
+@media (max-width:900px) {
+  table{
+    width: 90%;
+    margin: 50px auto;
+  }
+  td{
+    display:block;
+    width: 100%;
+  }
+  .perfume-img{
+    width: 100%;
+    content:url(images/image-product-mobile.jpg);
+    border-radius: 10px 10px 0 0;
+  }
+  p{
+    line-height: 2;
+  }
+}
